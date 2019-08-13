@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
   Goods goods1;
   Goods goods2;
   Goods goods3;
-  Shopping shoppingList;
+  ShoppingCart shoppingList;
 
   goods1.SetGoodsInfo(2, 3000);
   goods2.SetGoodsInfo(1, 5000);

@@ -11,8 +11,8 @@
 class Goods{
  public:
   void SetGoodsInfo(int index, int price);
-  int GetIndex();
-  int GetPrice();
+  int GetIndex() const;
+  int GetPrice() const;
 
  private:
   int goods_index_ = 0;

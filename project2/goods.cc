@@ -9,11 +9,11 @@ void Goods::SetGoodsInfo(int index, int price) {
 }
 
 // Return index information
-int Goods::GetIndex() {
+int Goods::GetIndex() const {
   return goods_index_;
 }
 
 // Return price informaiton
-int Goods::GetPrice() {
+int Goods::GetPrice() const {
   return goods_price_;
 }

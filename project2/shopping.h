@@ -6,20 +6,20 @@
 #include <vector>
 #include "./goods.h"
 
-// Shopping class presents List of shopping.
+// ShoppingCart class presents List of shopping.
 // Example:
-//     Shopping tobuylist;
+//     ShoppingCart tobuylist;
 //     Goods obj1;
 //     Goods obj2;
 //     ...
 //     tobuylist.PushList(obj1);
 //     tobuylist.PushList(obj2);
 //     tobuylist.PrintList();
-class Shopping{
+class ShoppingCart{
  public:
-  void PushList(Goods object);
-  Goods GetLastElement();
-  void PrintList();
+  void PushList(const Goods& object);
+  Goods& GetLastElement() const;
+  void PrintList() const;
   void SortByPrice();
   void SortByIndex();
 

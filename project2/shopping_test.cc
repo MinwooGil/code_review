@@ -22,7 +22,7 @@ TEST(shopping_list_test, goods_object_test) {
 }
 
 TEST(shopping_list_test, shopping_object_test) {
-  Shopping shopping_object;
+  ShoppingCart shopping_object;
   Goods goods_test_object1;
   Goods goods_test_object2;
   Goods goods_test_object3;
