@@ -1,3 +1,5 @@
+/* Copyright (c) 2019 minwoo.gil All rights reserved. */
+
 #include "./goods.h"
 
 // Set member variable of goods with given index and price values

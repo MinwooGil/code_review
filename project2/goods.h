@@ -1,3 +1,5 @@
+/* Copyright (c) 2019 minwoo.gil All rights reserved. */
+
 #ifndef GOODS_H_
 #define GOODS_H_
 

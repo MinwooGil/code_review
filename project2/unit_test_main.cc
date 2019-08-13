@@ -1,3 +1,5 @@
+/* Copyright (c) 2019 minwoo.gil All rights reserved. */
+
 #include "gtest/gtest.h"
 
 int main(int argc, char **argv) {

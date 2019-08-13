@@ -1,3 +1,5 @@
+/* Copyright (c) 2019 minwoo.gil All rights reserved. */
+
 #include "./shopping.h"
 #include <gtest/gtest.h>
 

@@ -1,3 +1,5 @@
+/* Copyright (c) 2019 minwoo.gil All rights reserved. */
+
 #ifndef SHOPPING_H_
 #define SHOPPING_H_
 
